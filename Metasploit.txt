@@ -1,0 +1,3 @@
+1- Habrimos una consola y escribimos el siguiente comando: service postgresql start && service metasploit start
+2- Habrimos otra consola y escribimos el siguiente comando: update-rc.d postgresql enable && update-rc.d
+3- Cerramos todo y habrimos una consola de Metasploit Framework pare chequear la base de datos: db_status		
