@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArmoryWorkspace">
+    <option name="isFirstStart" value="false" />
+    <treesState>
+      <tree order="0" ws="0" width2="412">
+        <expand>
+          <item val="" />
+        </expand>
+        <select>
+          <item val="ejerciciosCursoJava|" />
+        </select>
+        <roots>
+          <item val="ejerciciosCursoJava|" />
+          <item val="External Libraries|" />
+          <item val="External Directories|" />
+          <item val="Scratches and Consoles|" />
+        </roots>
+      </tree>
+    </treesState>
+    <workspaceTree curIdx="0">
+      <ws layout="Compact" />
+    </workspaceTree>
+  </component>
+</project>
