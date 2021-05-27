@@ -14,7 +14,6 @@ Este repositorio esta hecho para hacer un backup de archivos personales
   * git log --stat(para ver la cantidad de cambios en el archivo) 
 * EN EL CASO QUE HAYA HECHO UN COMMIT ERRONEO
   * git rm --cached "nombre archivo,sin comillas" 
-  * 
 * PARA VIAJAR ENTRE VERSIONES DE NUESTRO PROYECTOS(ATENCION:CUANDO SE VIAJA A UNA VERSION ANTERIOR,SE PIERDE EL COMMIT OSEA LOS CAMBIOS)
   * git log --oneline(con esto obtenemos los hash de las versiones)
   * git checkout "aca va el hash de la version a la cual queremos viajar,sin comillas"
@@ -25,3 +24,6 @@ Este repositorio esta hecho para hacer un backup de archivos personales
   * git checkout -b "nombre rama,sin comillas"(crear rama)
   * git merge "nombre rama,sin comillas"(para unir dos ramas,primero se necesita ubicar en una de las ramas y luego hacer la combinacion con la otra rama)
   * git branch -d "nombre rama,sin comillas"(eliminar rama,al eliminar una rama se envian todos sus logs a otra rama)
+***
+* CLONAR
+  * git clone "direccion repositorio,sin comillas"(se debe situar en la carpeta de destino) 
