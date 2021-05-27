@@ -8,17 +8,17 @@ Este repositorio esta hecho para hacer un backup de archivos personales
   * git commit -m "comentario"
   * git push origin master
   * git pull master & git push origin master(este se utiliza por si me dice que ya hay un repo haciendo push)
-  
+***
 * PARA VER LOS COMMITS
   * git log
   * git log --stat(para ver la cantidad de cambios en el archivo) 
 * EN EL CASO QUE HAYA HECHO UN COMMIT ERRONEO
   * git rm --cached "nombre archivo,sin comillas" 
-***
-
+  * 
 * PARA VIAJAR ENTRE VERSIONES DE NUESTRO PROYECTOS(ATENCION:CUANDO SE VIAJA A UNA VERSION ANTERIOR,SE PIERDE EL COMMIT OSEA LOS CAMBIOS)
   * git log --oneline(con esto obtenemos los hash de las versiones)
-  * git checkout "aca va el hash de la version a la cual queremos viajar,sin comillas"  
+  * git checkout "aca va el hash de la version a la cual queremos viajar,sin comillas"
+***
 * RAMAS 
   * git branch(para ver ramas)   
   * git checkout "nombre rama,sin comillas"(cambiar de rama)
