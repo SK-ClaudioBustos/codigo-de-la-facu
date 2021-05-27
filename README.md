@@ -22,7 +22,7 @@ Este repositorio esta hecho para hacer un backup de archivos personales
   * git branch(para ver ramas)   
   * git checkout "nombre rama,sin comillas"(cambiar de rama)
   * git checkout -b "nombre rama,sin comillas"(crear rama)
-  * git merge "nombre rama,sin comillas"(para unir dos ramas,primero se necesita ubicar en una de las ramas y luego hacer la combinacion con la otra rama)
+  * git merged "nombre rama,sin comillas"(para unir dos ramas,primero se necesita ubicar en una de las ramas y luego hacer la combinacion con la otra rama)
   * git branch -d "nombre rama,sin comillas"(eliminar rama,al eliminar una rama se envian todos sus logs a otra rama)
 ***
 * CLONAR
