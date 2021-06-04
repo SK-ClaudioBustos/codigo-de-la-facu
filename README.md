@@ -29,3 +29,6 @@ Este repositorio esta hecho para hacer un backup de archivos personales
 ***
 * CLONAR
   * git clone "direccion repositorio,sin comillas"(se debe situar en la carpeta de destino) 
+* BORRAR
+  * git rm "nombre archivo" 
+  * git rm -r "nombre carpeta"(eliminar carpeta)
