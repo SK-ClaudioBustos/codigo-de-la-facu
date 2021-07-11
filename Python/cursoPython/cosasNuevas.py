@@ -119,7 +119,7 @@ else:
 
 #se podria decir que se usan para invocar un error en el caso que se cumpla una determinada condicion
 num = 102
-if nume >100:
+if num >100:
     raise ValueError("debe introducir un valor menor a 100")
 
 
@@ -232,7 +232,7 @@ del a
 
 import re
 pattern = r"spam"
-#match se usa para verificar si una palabra se encuentra al comienzo de otra 
+#match se usa para verificar si una palabra se encuentra en otra 
 if re.match(pattern, "spamspamspam"):
     print("Match")
 else:
@@ -264,6 +264,9 @@ stri = "My name is David. Hi David."
 pattern = r"David"
 newstr = re.sub(pattern, "Amy", stri)
 print(newstr)
+#esta match verifica si la palabra contiene solo letras,numeros y guiones bajos
+if re.match('^[a-zA-Z0-9_]+$', str):
+    print("palabra correcta")
 
 
 #metacaracteres
@@ -472,7 +475,7 @@ t = '20E1'
 print(t.isalnum())
 #el método isdigit() devuelve true si encuentra dígitos
 palabra.isdigit()
-#lo mismo que lo anterior pero con letras
+#lo mismo que lo anterior pero con letras y caracteres
 palabra.isalpha()
 #devuelve verdadero si todas las letras estan en minusculas
 palabra.islower()
